@@ -6,7 +6,7 @@ const _ = require("lodash");
 
 const app = express();
 
-mongoose.connect("mongodb://localhost:27017/todolistDB", {useNewUrlParser: true});
+mongoose.connect("mongodb+srv://admin-leonardo:Test123@cluster0-fgqx7.mongodb.net/todolistDB", {useNewUrlParser: true});
 
 const itemsSchema = {
   name: String
